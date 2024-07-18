@@ -1,0 +1,32 @@
+*{
+  margin:2;
+  padding:5;
+}
+
+h1 {text-align:center}
+
+@media screen and (max-width:1200px){
+	body{
+		background-color:yellow;
+		color:white;
+		background-image: linear-gradient(to bottom right, red, yellow);
+
+	}
+	
+	img{
+    height: 500px;
+    width: 400px;
+	}
+
+	h1{
+		 color:red;
+	 }
+}
+   
+@media screen and (max-width:1000px){
+	body{
+		  background-image: linear-gradient(to right, red , blue);
+		color:white;
+   }
+   
+}
